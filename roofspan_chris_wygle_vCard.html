@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roofspan – Tony Sauter</title>
+  <title>Roofspan – Chris Wygle</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -144,22 +144,22 @@
     </div>
 
     <div class="divider"></div>
-    <p class="person-name">Tony Sauter</p>
-    <p class="person-title">Business Development Manager</p>
+    <p class="person-name">Christopher Wygle</p>
+    <p class="person-title">Owner</p>
 
     <div class="contact-grid">
       <div class="contact-item">
         <svg class="ci-icon" viewBox="0 0 16 16" fill="none"><path d="M3 2.5C3 2.22 3.22 2 3.5 2H6L7.5 5.5L6 6.5C6.79 8.08 7.92 9.21 9.5 10L10.5 8.5L14 10V12.5C14 12.78 13.78 13 13.5 13C7.15 13 3 8.85 3 2.5Z" stroke="white" stroke-width="1.2" stroke-linejoin="round"/></svg>
         <div>
           <span class="ci-label">Cell</span>
-          <span class="ci-value"><a href="tel:4057023967">405-702-3967</a></span>
+          <span class="ci-value"><a href="tel:9186880618">918-688-0618</a></span>
         </div>
       </div>
       <div class="contact-item">
         <svg class="ci-icon" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="10" rx="1.5" stroke="white" stroke-width="1.2"/><path d="M2 5L8 9L14 5" stroke="white" stroke-width="1.2" stroke-linecap="round"/></svg>
         <div>
           <span class="ci-label">Email</span>
-          <span class="ci-value"><a href="mailto:tony.sauter@roofspan.com">tony.sauter@roofspan.com</a></span>
+          <span class="ci-value"><a href="mailto:chris.wygle@roofspan.com">chris.wygle@roofspan.com</a></span>
         </div>
       </div>
       <div class="contact-item">
@@ -260,13 +260,13 @@
     const vcf = [
       "BEGIN:VCARD",
       "VERSION:3.0",
-      "N:Sauter;Tony;;;",
-      "FN:Tony Sauter",
+      "N:Wygle;Christopher;;;",
+      "FN:Christopher Wygle",
       "ORG:Roofspan",
-      "TITLE:Business Development Manager",
-      "TEL;TYPE=CELL:405-702-3967",
+      "TITLE:Owner",
+      "TEL;TYPE=CELL:918-688-0618",
       "TEL;TYPE=WORK:918-493-0024",
-      "EMAIL:tony.sauter@roofspan.com",
+      "EMAIL:chris.wygle@roofspan.com",
       "URL:https://www.roofspan.com",
       "ADR;TYPE=WORK:;;19 N. Park St.;Sapulpa;OK;74066;USA",
       "NOTE:License # OK2524 | License # AR036670",
@@ -276,7 +276,7 @@
     const encoded = encodeURIComponent(vcf);
     const a = document.createElement("a");
     a.setAttribute("href", "data:text/vcard;charset=utf-8," + encoded);
-    a.setAttribute("download", "Tony_Sauter_Roofspan.vcf");
+    a.setAttribute("download", "Chris_Wygle_Roofspan.vcf");
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
